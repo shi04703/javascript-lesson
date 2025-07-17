@@ -117,4 +117,4 @@ function foo() {
   let x = 1;
 }
 console.log(x);
-//console.log(x);は関数fooの中で定義されている変数のためスコープの外であるため参照できません。
+//console.log(x);は関数fooの中で定義されている変数のためスコープの外では参照できません。
