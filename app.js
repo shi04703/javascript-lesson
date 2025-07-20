@@ -16,6 +16,8 @@ let user = {
   age: 26,
   bloodType: 'A',
   favorite: 'card',
+  birthday: '2000-09-27',
+  SayHello: 'Hello！'
 };
 console.log(user.age);
 
@@ -37,7 +39,7 @@ let playerList = [
     favorites: ['Football', 'Smash Bros.'],
   },
 ];
-console.log('The Legend of Zelda');
+console.log(playerList[1].favorites[1]);
 
 //Q5 四則演算
 let num1 = 81;
@@ -59,24 +61,10 @@ sayWorld();
 
 //Q7 メソッド
 //Q3 で定義した変数 user に '2000-09-27'を値とする birthday プロパティを追加してください。
-let newUser={
-  name: 'John',
-  age: 26,
-  bloodType: 'A',
-  favorite: 'card',
-  birthday: '2000-09-27'
-};
+//birthday: '2000-09-27',を追加
 
 //Q3 で定義した変数 user に Hello！とコンソールに出力するメソッド sayHello を追加し、実行してください。
-
-let userSayHello={
-  name: 'John',
-  age: 26,
-  bloodType: 'A',
-  favorite: 'card',
-SayHello: 'Hello！'
-};
-console.log(userSayHello.SayHello);
+console.log(user.SayHello);
 
 //Q8 引数
 let calc = {};
