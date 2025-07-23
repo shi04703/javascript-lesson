@@ -16,12 +16,6 @@ let user = {
   age: 26,
   bloodType: 'A',
   favorite: 'card',
-  birthday: function() {
-    console.log('2000-09-27');
-  },
-  sayHello: function() {
-    console.log('Hello!');
-  }
 };
 console.log(user.age);
 
@@ -69,13 +63,17 @@ sayWorld();
 // age: 26,
 //bloodType: 'A',
 //favorite: 'card'};
+//  birthday: function() {console.log('2000-09-27');},
+// sayHello: function() {console.log('Hello!');}
 
 //Q3 で定義した変数 user に '2000-09-27'を値とする birthday プロパティを追加してください。
+  user.birthday = '2000-09-27';
 
 //birthday: '2000-09-27',を追加
 
 //Q3 で定義した変数 user に Hello！とコンソールに出力するメソッド sayHello を追加し、実行してください。
-user.sayHello();
+  user.sayHello = 'Hello！';
+console.log(user.sayHello);
 
 //Q8 引数
 let calc = {};
