@@ -72,8 +72,11 @@ sayWorld();
 //birthday: '2000-09-27',を追加
 
 //Q3 で定義した変数 user に Hello！とコンソールに出力するメソッド sayHello を追加し、実行してください。
-  user.sayHello = 'Hello！';
-console.log(user.sayHello);
+  user.sayHello = function() {
+  console.log('Hello!');
+};
+
+user.sayHello();
 
 //Q8 引数
 let calc = {};
